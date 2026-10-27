@@ -1,0 +1,7 @@
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+firebase-debug.log
+.firebase/
+.DS_Store
