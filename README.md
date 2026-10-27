@@ -6,7 +6,7 @@ recursos visuais em `assets/` e o arquivo de autorizacao de anuncios em
 
 ## Publicacao
 
-1. Execute `sh scripts/build-site.sh`. O script copia somente os sete arquivos
+1. Execute `sh scripts/build-site.sh`. O script copia somente os nove arquivos
    publicos para `_site/` e interrompe a publicacao se encontrar outros arquivos.
 2. Para testar sem alterar o site publico, execute
    `firebase hosting:channel:deploy nome-do-teste --project swipecleaner`.
@@ -18,6 +18,6 @@ Confirme que `https://swipecleaner.web.app/app-ads.txt` continua acessivel
 apos cada publicacao.
 
 O site Jekyll anterior esta preservado na tag
-`backup/jekyll-before-static-2026-10-27`. A politica de privacidade vinculada
-na pagina fica em um repositorio separado e deve ser revisada para refletir o
-app Android atual.
+`backup/jekyll-before-static-2026-10-27`. A politica de privacidade e os termos
+de uso ficam neste repositorio e devem permanecer alinhados com as copias
+incluidas no aplicativo Android.
